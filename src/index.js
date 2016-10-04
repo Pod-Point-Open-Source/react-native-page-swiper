@@ -10,24 +10,7 @@ import {
 
 import Dots from './dots';
 
-export default class Swiper extends Component {
-  static propTypes = {
-    children: React.PropTypes.node.isRequired,
-    index: React.PropTypes.number,
-    threshold: React.PropTypes.number,
-    pager: React.PropTypes.bool,
-    onPageChange: React.PropTypes.func,
-    activeDotColor: React.PropTypes.string,
-  };
-
-  static defaultProps = {
-    index: 0,
-    pager: true,
-    threshold: 25,
-    onPageChange: () => {},
-    activeDotColor: 'blue',
-  };
-
+class Swiper extends Component {
   constructor(props) {
     super(props);
 
@@ -146,3 +129,22 @@ export default class Swiper extends Component {
     );
   }
 }
+
+Swiper.propTypes = {
+  children: React.PropTypes.node.isRequired,
+  index: React.PropTypes.number,
+  threshold: React.PropTypes.number,
+  pager: React.PropTypes.bool,
+  onPageChange: React.PropTypes.func,
+  activeDotColor: React.PropTypes.string,
+};
+
+Swiper.defaultProps = {
+  index: 0,
+  pager: true,
+  threshold: 25,
+  onPageChange: () => {},
+  activeDotColor: 'blue',
+};
+
+export default Swiper;
