@@ -1,5 +1,5 @@
 {
-  "name": "@pod-point-open-source/react-native-page-swiper",
+  "name": "@pod-point/react-native-page-swiper",
   "keywords": [
     "react",
     "react-component",
@@ -21,14 +21,14 @@
   "public": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pod-Point-Open-Source/react-native-page-swiper.git"
+    "url": "git+https://github.com/Pod-Point/react-native-page-swiper.git"
   },
   "author": "Christopher Garvis <cgarvis@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Pod-Point-Open-Source/react-native-page-swiper/issues"
+    "url": "https://github.com/Pod-Point/react-native-page-swiper/issues"
   },
-  "homepage": "https://github.com/Pod-Point-Open-Source/react-native-page-swiper#readme",
+  "homepage": "https://github.com/Pod-Point/react-native-page-swiper#readme",
   "peerDependencies": {
     "react": "*",
     "react-native": "^0.x"
